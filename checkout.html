@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnicas Vergara</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="css/style_checkout.css">
+    <script src="js/common.js"></script>
+    <script src="js/checkout.js"></script>
+</head>
+<body>
+    <header>CARNICAS VERGARA</header>
+    <nav>
+        <ul>
+            <li><a href="aboutus.html">About us</a></li>
+            <li><a href="index.html">Volver al index</a></li>
+            <li><a href="#" onclick="logout()">Salir</a></li>
+        </ul>
+    </nav>
+
+    <hr/>
+    <div id="carrito-container"></div>
+    <hr/>
+    <label id="total"></label>
+    <hr/>
+
+    <h1>Formulario de Compra</h1>
+    <h1>Ingrese aquí tus datos</h1>
+
+    <form action="http://localhost/compralista.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]{2,50}" title="El nombre solo puede contener letras y espacios, y debe tener entre 2 y 50 caracteres.">
+
+        <label for="n_tarjeta">Nº Tarjeta:</label>
+        <input type="text" id="n_tarjeta" name="n_tarjeta" required pattern="\d{13,18}" title="El número de tarjeta debe contener entre 13 y 18 dígitos.">
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required pattern="(\+34)?\d{9}" title="El número de teléfono debe contener 9 dígitos, y puede incluir el prefijo +34.">
+
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" required pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ0-9\s,.-]{5,100}" title="La dirección debe tener entre 5 y 100 caracteres, y solo puede contener letras, números, espacios y los símbolos , . - ">
+
+        <button type="submit" onclick="realizarCompra()">Realizar Compra</button>
+    </form>
+
+    <br>
+    <br>
+    <br>
+    <footer>
+        &copy; 2025 Granja Inteligente. Todos los derechos reservados. <a href="#">Política de Privacidad</a>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', checkIsLogged)
+        window.onload = mostrarCheckout
+    </script>
+    
+</body>
+</html>

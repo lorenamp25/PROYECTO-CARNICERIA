@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnicas Vergara</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/common.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">CARNICAS VERGARA</div>
+            <ul class="nav-links">
+                <li><a href="checkout.html">Ir a checkout</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="#" onclick="logout()">Salir</a></li>
+                <li class="cart-icon" onclick="toggleCarrito()">
+                    🛒 <span id="cart-count">0</span>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="productos-container"></div>
+    
+    <div id="carrito-container" class="carrito oculto">
+        <h2>Carrito de Compras</h2>
+        <ul id="carrito-lista"></ul>
+        <button class="checkout-button" onclick="location.href='checkout.html'">Realizar compra</button>
+    </div>
+
+    <footer>
+        &copy; 2025 Granja Inteligente. Todos los derechos reservados. <a href="#">Política de Privacidad</a>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', checkIsLogged);
+        window.onload = mostrarProductos;
+        
+        function toggleCarrito() {
+            document.getElementById("carrito-container").classList.toggle("oculto");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnicas Vergara</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/common.js"></script>
+    <script src="js/aboutus.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">CARNICAS VERGARA</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Volver al index</a></li>
+                <li><a href="checkout.html">Ir a checkout</a></li>
+                <li><a href="#" onclick="logout()">Salir</a></li>
+                <li class="cart-icon" onclick="toggleCarrito()">
+                    🛒 <span id="cart-count">0</span>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>About us</h2>
+
+    <h3>Lista de Granjas</h3>
+    <div id="granjas"></div>
+
+
+
+
+    <script>
+        window.onload = mostrarAboutUs;
+    </script>
+</body>
+</html>
