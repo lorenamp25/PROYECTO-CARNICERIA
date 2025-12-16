@@ -1,0 +1,147 @@
+/* Reset de algunos estilos predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body general */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #fdfdfd, #9a9a9a);
+    color: #fff;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Estilo para el header */
+header {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+/* Estilo para la navegación */
+nav {
+    margin-bottom: 40px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li {
+    font-size: 1.2rem;
+}
+
+nav ul li a, nav ul li button {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    background: #13efff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover, nav ul li button:hover {
+    background: #0173ff;
+}
+
+/* Formulario de compra */
+form {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    background: #f9f9f9;
+    color: #333;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus {
+    border-color: #10fbff;
+    outline: none;
+}
+
+form button {
+    background: #50e2ff;
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #14c4ff;
+}
+
+/* Estilo del total y carrito */
+#total {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0ca2ff;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#carrito-container {
+    background-color: rgba(89, 13, 155, 0.3);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 50px;
+    color: #000000;
+}
+
+footer a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #ff4d6a;
+}
