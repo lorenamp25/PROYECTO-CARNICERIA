@@ -1,0 +1,115 @@
+[
+    {
+        "id": 1,
+        "nombre": "Ribeye",
+        "descripcion": "Corte marbled para un sabor excepcional.",
+        "precio": 20.99,
+        "imagen": "imagenes/ribeye.jpeg",
+        "tipo": "Carne"
+    },
+    {
+        "id": 2,
+        "nombre": "Filete de Vacuno",
+        "descripcion": "Corte de res de primera calidad, tierno y jugoso.",
+        "precio": 15.99,
+        "imagen": "imagenes/filete.jpg",
+        "tipo": "Carne"
+    },
+    {
+        "id": 3,
+        "nombre": "Solomillo",
+        "descripcion": "Corte tierno y delicado, perfecto para asar.",
+        "precio": 18.75,
+        "imagen": "imagenes/solomillo.webp",
+        "tipo": "Carne"
+    },
+    {
+        "id": 4,
+        "nombre": "Gouda",
+        "descripcion": "Aroma perfecto para tapas.",
+        "precio": 18.75,
+        "imagen": "imagenes/manchego.jpeg",
+        "tipo": "Queso"
+    }
+    ,
+    {
+        "id": 5,
+        "nombre": "Chuletón de Ternera",
+        "descripcion": "Un jugoso chuletón con hueso, ideal para parrilla.",
+        "precio": 22.50,
+        "imagen": "imagenes/salchichon.jpeg",
+        "tipo": "Carne"
+    },
+    {
+        "id": 6,
+        "nombre": "Picanha",
+        "descripcion": "Corte brasileño con excelente marmoleo y sabor.",
+        "precio": 19.99,
+        "imagen": "imagenes/picanha.jpeg",
+        "tipo": "Carne"
+    },
+    {
+        "id": 7,
+        "nombre": "Lomo Alto",
+        "descripcion": "Corte grueso y jugoso, perfecto para asados.",
+        "precio": 21.25,
+        "imagen": "imagenes/lomoalto.jpeg",
+        "tipo": "Carne"
+    },
+    {
+        "id": 8,
+        "nombre": "Pata de Jamón Ibérico",
+        "descripcion": "Jamón de bellota de curación artesanal.",
+        "precio": 129.99,
+        "imagen": "imagenes/jamoniberico.jpeg",
+        "tipo": "Embutido"
+    },
+    {
+        "id": 9,
+        "nombre": "Salchichón Ibérico",
+        "descripcion": "Embutido de cerdo ibérico, curado lentamente.",
+        "precio": 12.99,
+        "imagen": "imagenes/salchichon.jpeg",
+        "tipo": "Embutido"
+    },
+    {
+        "id": 10,
+        "nombre": "Chorizo Ibérico",
+        "descripcion": "Chorizo curado con pimentón de la Vera.",
+        "precio": 10.50,
+        "imagen": "imagenes/chorizo.jpeg",
+        "tipo": "Embutido"
+    },
+    {
+        "id": 11,
+        "nombre": "Queso Manchego Curado",
+        "descripcion": "Queso de oveja madurado por 12 meses.",
+        "precio": 24.99,
+        "imagen": "imagenes/manchego.jpeg",
+        "tipo": "Queso"
+    },
+    {
+        "id": 12,
+        "nombre": "Queso Azul",
+        "descripcion": "Queso fuerte y cremoso, ideal para salsas.",
+        "precio": 16.75,
+        "imagen": "imagenes/quesoazul.jpeg",
+        "tipo": "Queso"
+    },
+    {
+        "id": 13,
+        "nombre": "Pechuga de Pollo",
+        "descripcion": "Pechuga sin piel, lista para cocinar.",
+        "precio": 8.99,
+        "imagen": "imagenes/pechuga.jpeg",
+        "tipo": "Carne"
+    },
+    {
+        "id": 14,
+        "nombre": "Morcilla de Burgos",
+        "descripcion": "Embutido tradicional con arroz y especias.",
+        "precio": 9.50,
+        "imagen": "imagenes/morcilla.jpeg",
+        "tipo": "Embutido"
+    }
+]

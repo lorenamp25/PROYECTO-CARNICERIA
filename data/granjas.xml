@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<granjas>
+    <granja>
+        <id>1</id>
+        <nombre>Granja El Prado</nombre>
+        <ubicacion>Valle Verde</ubicacion>
+    </granja>
+    <granja>
+        <id>2</id>
+        <nombre>Granja La Colina</nombre>
+        <ubicacion>Montaña Azul</ubicacion>
+    </granja>
+    <granja>
+        <id>3</id>
+        <nombre>Granja Del Sol</nombre>
+        <ubicacion>Llanura Dorada</ubicacion>
+    </granja>
+    <granja>
+        <id>4</id>
+        <nombre>Granja Los Pinos</nombre>
+        <ubicacion>Bosque Encantado</ubicacion>
+    </granja>
+    <granja>
+        <id>5</id>
+        <nombre>Granja Las Flores</nombre>
+        <ubicacion>Jardín de Primavera</ubicacion>
+    </granja>
+    <granja>
+        <id>6</id>
+        <nombre>Granja San Antonio</nombre>
+        <ubicacion>Río Sereno</ubicacion>
+    </granja>
+    <granja>
+        <id>7</id>
+        <nombre>Granja El Refugio</nombre>
+        <ubicacion>Cañón Escondido</ubicacion>
+    </granja>
+    <granja>
+        <id>8</id>
+        <nombre>Granja Santa Rosa</nombre>
+        <ubicacion>Campo Alegre</ubicacion>
+    </granja>
+    <granja>
+        <id>9</id>
+        <nombre>Granja Los Olivos</nombre>
+        <ubicacion>Hacienda Tranquila</ubicacion>
+    </granja>
+    <granja>
+        <id>10</id>
+        <nombre>Granja Vista Hermosa</nombre>
+        <ubicacion>Cima Alta</ubicacion>
+    </granja>
+    <granja>
+        <id>11</id>
+        <nombre>Granja Las Nubes</nombre>
+        <ubicacion>Costa Serena</ubicacion>
+    </granja>
+    <granja>
+        <id>12</id>
+        <nombre>Granja La Luna</nombre>
+        <ubicacion>Valle Nocturno</ubicacion>
+    </granja>
+    <granja>
+        <id>13</id>
+        <nombre>Granja Del Río</nombre>
+        <ubicacion>Ribera Soleada</ubicacion>
+    </granja>
+    <granja>
+        <id>14</id>
+        <nombre>Granja El Encanto</nombre>
+        <ubicacion>Pradera Mágica</ubicacion>
+    </granja>
+    <granja>
+        <id>15</id>
+        <nombre>Granja Las Águilas</nombre>
+        <ubicacion>Montaña Elevada</ubicacion>
+    </granja>
+</granjas>
